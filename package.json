@@ -17,5 +17,8 @@
     "bugs": {
         "url": "https://gitlab.com/unram/if/azm/pwl22/code/issues"
     },
-    "homepage": "https://gitlab.com/unram/if/azm/pwl22/code#readme"
+    "homepage": "https://gitlab.com/unram/if/azm/pwl22/code#readme",
+    "dependencies": {
+        "npm-watch": "^0.11.0"
+    }
 }
