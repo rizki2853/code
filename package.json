@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "node ./index.js",
-        "watch": "nodemon ./index.js"
+        "watch": "nodemon ./index.js",
+        "start-week4": "webpack-dev-server --config week4/webpack.config.js"
     },
     "repository": {
         "type": "git",
@@ -19,6 +20,19 @@
     },
     "homepage": "https://gitlab.com/unram/if/azm/pwl22/code#readme",
     "dependencies": {
-        "npm-watch": "^0.11.0"
+        "favicons-webpack-plugin": "^5.0.2",
+        "npm-watch": "^0.11.0",
+        "sharp": "^0.31.0"
+    },
+    "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.0"
     }
 }
