@@ -24,9 +24,7 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/,
-                use: [
-                    'file-loader',
-                ],
+                type: 'asset/resource'
             },
         ],
     },
@@ -44,7 +42,7 @@ module.exports = {
             ],
         }),
         new FaviconsWebpackPlugin({
-            logo: path.resolve(__dirname, 'src/images/unram.png'),
+            logo: path.resolve(__dirname, 'src/images/logo.jpeg'),
         }),
         new CleanWebpackPlugin(),
     ],

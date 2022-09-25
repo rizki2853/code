@@ -6,7 +6,8 @@
     "scripts": {
         "start": "node ./index.js",
         "watch": "nodemon ./index.js",
-        "start-week4": "webpack-dev-server --config week4/webpack.config.js"
+        "start-week4": "webpack-dev-server --config week4/webpack.config.js",
+        "start-week5": "webpack-dev-server --config week5/webpack.config.js"
     },
     "repository": {
         "type": "git",
