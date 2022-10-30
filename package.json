@@ -8,7 +8,8 @@
         "watch": "nodemon ./index.js",
         "start-week4": "webpack-dev-server --config week4/webpack.config.js",
         "start-week5": "webpack-dev-server --config week5/webpack.config.js",
-        "start-week7": "webpack-dev-server --config week7/webpack.config.js"
+        "start-week7": "webpack-dev-server --config week7/webpack.config.js",
+        "start-week8": "webpack-dev-server --config week8/webpack.config.js"
     },
     "repository": {
         "type": "git",
@@ -22,22 +23,22 @@
     },
     "homepage": "https://gitlab.com/unram/if/azm/pwl22/code#readme",
     "dependencies": {
-        "favicons-webpack-plugin": "^5.0.2",
-        "npm-watch": "^0.11.0",
-        "serviceworker-webpack-plugin": "^1.0.1",
-        "sharp": "^0.31.0"
-    },
-    "devDependencies": {
-        "clean-webpack-plugin": "^4.0.0",
-        "copy-webpack-plugin": "^11.0.0",
-        "css-loader": "^6.7.1",
-        "favicons": "^7.0.1",
-        "file-loader": "^6.2.0",
-        "html-webpack-plugin": "^5.5.0",
-        "style-loader": "^3.3.1",
-        "webpack": "^5.74.0",
-        "webpack-cli": "^4.10.0",
-        "webpack-dev-server": "^4.11.0",
-        "webpack-pwa-manifest": "^4.3.0"
+        "clean-webpack-plugin": "^3.0.0",
+		"copy-webpack-plugin": "^6.0.2",
+		"css-loader": "^3.6.0",
+		"favicons": "^6.2.2",
+		"favicons-webpack-plugin": "^4.2.0",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
+		"idb": "^7.1.0",
+		"nodemon": "^2.0.19",
+		"npm-watch": "^0.11.0",
+		"serviceworker-webpack-plugin": "^1.0.1",
+		"sharp": "^0.31.0",
+		"style-loader": "^1.2.1",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0",
+		"webpack-pwa-manifest": "^4.3.0"
     }
 }
